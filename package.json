@@ -23,6 +23,7 @@
   "homepage": "https://github.com/stealjs/steal-nw",
   "dependencies": {
     "node-webkit-builder": "^1.0.12",
-    "pdenodeify": "^0.1.0"
+    "pdenodeify": "^0.1.0",
+    "rimraf": "^2.4.0"
   }
 }

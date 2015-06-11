@@ -12,6 +12,6 @@ var buildPromise = stealTools.build({
 	config: __dirname + "/package.json!npm"
 });
 
-buildPromise.then(function(){
-	return stealNw(nwOptions);
+buildPromise.then(function(buildResult){
+	return stealNw(nwOptions, buildResult);
 });
