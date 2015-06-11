@@ -1,0 +1,28 @@
+{
+  "name": "steal-nw",
+  "version": "0.0.1",
+  "description": "Build nw.js applications with StealJS",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stealjs/steal-nw.git"
+  },
+  "keywords": [
+    "nw.js",
+    "nwjs",
+    "StealJS"
+  ],
+  "author": "Bitovi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stealjs/steal-nw/issues"
+  },
+  "homepage": "https://github.com/stealjs/steal-nw",
+  "dependencies": {
+    "node-webkit-builder": "^1.0.12",
+    "pdenodeify": "^0.1.0"
+  }
+}
