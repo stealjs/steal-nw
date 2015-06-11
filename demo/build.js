@@ -8,8 +8,10 @@ var nwOptions = {
 	files: ["./**/*"]
 };
 
-stealNw(nwOptions).then(function(){
-	console.log("build complete");
-}, function(err){
-	console.error("OH NO:", err);
+var buildPromise = stealTools.build({
+	config: __dirname + "/package.json!npm"
+});
+
+buildPromise.then(function(){
+	return stealNw(nwOptions);
 });
