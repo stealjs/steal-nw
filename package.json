@@ -1,6 +1,6 @@
 {
   "name": "steal-nw",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Build nw.js applications with StealJS",
   "main": "lib/main.js",
   "scripts": {
