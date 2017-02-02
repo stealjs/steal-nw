@@ -1,5 +1,5 @@
 {
   "name": "app",
-  "main": "index.html",
+  "main": "production.html",
   "version": "1.0.0"
 }
