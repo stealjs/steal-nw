@@ -28,7 +28,7 @@
   "homepage": "https://github.com/stealjs/steal-nw",
   "dependencies": {
     "cheerio": "^0.22.0",
-    "fs-extra": "^2.0.0",
+    "fs-extra": "^4.0.2",
     "nw-builder": "^3.1.2",
     "pdenodeify": "^0.1.0",
     "rimraf": "^2.4.0"
