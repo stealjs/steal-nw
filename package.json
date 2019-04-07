@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "copy": "^0.3.0",
-    "mocha": "^3.2.0"
+    "mocha": "^6.1.1"
   }
 }
